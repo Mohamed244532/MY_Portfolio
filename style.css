@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  background: #222;
+  color: white;
+  padding: 20px;
+  width: 220px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.sidebar h2 span {
+  color: orange;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 20px 0;
+}
+
+.sidebar .social {
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.sidebar .social i {
+  font-size: 28px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.sidebar .social i:hover {
+  transform: scale(1.2);
+}
+
+.main-content {
+  margin-left: 220px;
+  padding: 40px;
+  background: #fff6ec;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.section-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.section-title span {
+  color: orange;
+}
+
+.home-text h1 span {
+  color: orange;
+}
+
+.btn {
+  background: orange;
+  padding: 10px 20px;
+  display: inline-block;
+  color: white;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.about-content {
+  display: flex;
+  gap: 30px;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills .skill {
+  margin: 10px 0;
+}
+
+.skills .bar {
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.skills .bar div {
+  height: 100%;
+  background: orange;
+  border-radius: 5px;
+}
+
+.portfolio-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+
+.project {
+  background: #eee;
+  padding: 20px;
+  flex: 1 1 220px;
+  max-width: 250px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+
+.project img {
+  width: 100%;
+  max-width: 220px;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.personal-info ul li {
+  margin-bottom: 10px;
+}
+
+.personal-info strong {
+  color: orange;
+}
